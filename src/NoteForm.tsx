@@ -13,6 +13,7 @@ type NoteFormProps = {
     availableTags: Tag[]
 }
 
+
 export function NoteForm({onSubmit ,onAddTag,availableTags}:NoteFormProps) {
     const titleRef = useRef<HTMLInputElement> (null)
     const markdownRef = useRef<HTMLTextAreaElement> (null)
